@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { CursosComponent } from './cursos/cursos.component';
 import { FormTemplateDrivernComponent } from './form-template-drivern/form-template-drivern.component';
+import { CamelCasePipe } from './camel-case.pipe';
 
 const appRouters: Routes = [
   {path: 'cursos', component: CursosComponent},
@@ -21,7 +22,8 @@ const appRouters: Routes = [
     HomeComponent,
     LoginComponent,
     CursosComponent,
-    FormTemplateDrivernComponent
+    FormTemplateDrivernComponent,
+    CamelCasePipe
   ],
   imports: [
     BrowserModule,

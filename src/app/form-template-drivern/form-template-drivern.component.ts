@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormTemplateDrivernComponent implements OnInit {
 
+  titulo: string = 'cadastro de cursos';
+  data: Date = new Date();
+  
   curso: any = {
     nome: null,
     id: null
